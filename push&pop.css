@@ -1,0 +1,53 @@
+div{
+    text-align: center;
+    display: grid;
+    place-items: center; 
+    border-radius: 30px;
+   
+    background: transparent;
+ }
+
+ input{
+    margin-bottom: 30px;
+    text-align: center;
+    width: 70vh;
+    height: 50px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-style: normal;
+    color: black;
+ }
+ 
+ body{
+    background:linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(java.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    place-items: center;
+ }
+ 
+ button{
+   text-align: center;
+   border-radius: 70px;
+   background-color: aliceblue;
+   font-size: 30px;
+   font-style: italic;
+ }
+ 
+ button:hover{
+    size: 20px;
+    border-radius: 50px;
+    color: rgb(42, 2, 75); 
+    cursor: pointer;
+    font-size: 25px;
+ }
+ 
+ h1{ 
+   color:whitesmoke;
+   margin-top: 60px;
+   font-style: bold;
+   font-size: 100px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
